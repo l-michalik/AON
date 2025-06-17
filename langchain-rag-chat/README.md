@@ -24,8 +24,8 @@ OPENAI_API_KEY=sk-...
 
 ## 📁 Files
 
-* `generate.py` – loads `.txt` files from `data/books/`, splits them, and saves embeddings to Chroma
-* `query.py` – asks questions using the context retrieved from Chroma
+* `create_database.py` – loads `.txt` files from `data/books/`, splits them, and saves embeddings to Chroma
+* `query_data.py` – asks questions using the context retrieved from Chroma
 
 ---
 
@@ -34,13 +34,13 @@ OPENAI_API_KEY=sk-...
 1. Build the vector store:
 
    ```bash
-   python generate.py
+   python create_database.py
    ```
 
 2. Ask a question:
 
    ```bash
-   python query.py "What is The Plague about?"
+   python query_data.py "What is The Plague about?"
    ```
 
 ---
