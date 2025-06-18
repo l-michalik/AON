@@ -1,0 +1,11 @@
+[project]
+name = "richtextual"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "psutil>=7.0.0",
+    "rich>=14.0.0",
+    "textual>=3.4.0",
+]
